@@ -1,0 +1,223 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Roboto:wght@300;500&display=swap');
+
+body{
+font-family: 'Roboto', sans-serif;
+margin: 0px;
+}
+
+.mercadoLiebre{
+display: flex;
+background-color: #fbbc02;
+position: sticky;
+top: 0px;
+margin: 0px;
+padding: 0px;
+border: solid #fbbc02;
+justify-content: space-between;
+}
+
+#icon{
+margin: 3px;
+}
+#icon2{
+margin-left: 6px;
+}
+#icon3{
+margin-left: 6px;    
+}
+
+.box2{
+display: flex;
+justify-content: space-around;
+}
+
+#liebre{
+padding: 10px;
+padding-top: 30px;
+padding-left: 50px;
+transition-property: all;
+transition-duration: 3s;
+transition-timing-function: ease-in-out;
+animation: color 2s infinite alternate;
+animation-duration: infinite;
+}
+    
+
+.todos{
+display: flex;
+justify-content: space-between;
+background-color: #fbbc02;
+
+}
+
+.crea{
+align-items:center;
+}
+.productos{
+margin-left: 20px;
+}
+
+#a1{
+ margin-right: 20px;
+}
+
+#a2{
+margin-right:20px ;    
+}
+
+#todas{
+padding-right:30px;
+font-weight: 500;
+}
+
+.size{
+font-size: large;
+text-decoration:none;
+color: black;
+}
+
+.novedad{
+display: flex;
+justify-content: stretch;
+margin: 0px;
+
+}
+
+
+.titulo{
+display: flex;
+justify-content: center;
+}
+
+
+.disfruta{
+display: flex;
+justify-content: space-around;
+margin-bottom: 70px;
+
+}
+
+
+.productBox{
+border: solid rgb(167, 161, 161);
+border-radius: 20px;
+padding: 70px;
+position: relative;
+display: inline-block;
+text-align: center;
+}
+
+.centrado{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+.textoCompra{
+display: flex;
+justify-content:space-evenly;
+}
+
+.boton{
+background-color: rgb(82, 82, 196);
+color: white;
+border-radius: 5px;
+border: solid white;
+margin-top: 10px;
+margin-bottom: 10px;
+padding-left: 20px ;
+padding-right: 20px;
+}
+
+#destacado{
+display: flex;
+justify-content: space-evenly;
+
+}
+.img2:hover{
+cursor: pointer;
+
+}
+
+#liebre:hover{
+background-color: #dda807;
+cursor: pointer;
+width: 300px;
+transform: rotateY(520deg);
+}
+
+
+
+@keyframes color {
+    from{
+        transform: ();
+
+    }
+    
+    to{
+        transform: translate(400px);
+        animation: rotateY(520deg);
+    }
+}
+
+
+/* ////REGISTRO//// */
+
+#bodyRegistro{
+    background-color:  #fbbc02;
+    font-family:  'Manrope', sans-serif;  
+    margin: 6em;
+    }
+    
+    
+.registro{
+     display: flex;
+     justify-content: center;  
+    }
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    }
+
+.form input {
+    width: 90%;
+    height: 30px;
+    margin: 0.5rem;
+    }
+
+.form button {
+    color: white;
+    border: none;
+    background: rgba(66,13,163,255);
+    cursor: pointer;
+    padding: 1em;
+    border-radius: 8px;
+    font-size: larger;
+    }
+
+#caja{
+    background-color: white;
+    border-radius: 1em;
+    border: none;
+    }
+
+legend{
+    font-weight: bold;    
+    font-size: larger;
+    }
+
+.imgRegistro{
+    margin-bottom: 1em;
+    margin-top: 3em;
+    margin-left: 6em;
+    margin-right: 6em ;
+
+    }
+
+#tituloRegistro{
+text-align: center;
+}
