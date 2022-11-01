@@ -1,0 +1,277 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Roboto:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Source+Sans+Pro&display=swap');
+
+body{
+font-family: 'Source Sans Pro', sans-serif;
+font-weight: bolder;
+margin: 0px;
+}
+
+.mercadoLiebre{
+display: flex;
+background-color: #fbbc02;
+position: sticky;
+top: 0px;
+margin: 0px;
+padding: 0px;
+border: solid #fbbc02;
+justify-content: space-between;
+}
+
+#icon{
+margin: 3px;
+}
+#icon2{
+margin-left: 6px;
+}
+#icon3{
+margin-left: 6px;    
+}
+
+.box2{
+display: flex;
+justify-content: space-around;
+}
+
+#liebre{
+padding-top: 1em;
+transition-property: all;
+transition-duration: 3s;
+transition-timing-function: ease-in-out;
+animation: color 2s infinite alternate;
+animation-duration: infinite;
+margin: 20px;
+margin: 10;
+}
+    
+
+.todos{
+display: flex;
+justify-content: space-between;
+background-color: #fbbc02;
+
+}
+
+.crea{
+align-items:center;
+}
+.productos{
+margin-left: 20px;
+}
+
+#botonIngresa{
+background-color: #fbbc02;
+color: black;
+border: none;
+box-shadow: none;
+padding-bottom: 2px;    
+}
+#botonIngresa2{
+background-color: #fbbc02;
+color: black;
+border: none;
+box-shadow: none;
+padding-bottom: 2px;        
+}
+
+#a1{
+ margin-right: 20px;
+}
+
+#a2{
+margin-right:20px ;    
+}
+
+#todas{
+padding-right:30px;
+margin-top:10px;
+
+font-weight: 500;
+}
+
+.size{
+font-size: large;
+text-decoration:none;
+color: black;
+}
+
+.container{
+display: grid;
+justify-self: stretch;
+}
+
+
+.titulo{
+display: flex;
+justify-content: center;
+margin: 2em;
+}
+
+
+.disfruta{
+display: flex;
+justify-content: space-around;
+margin-bottom: 70px;
+
+}
+
+
+.productBox{
+border: solid rgb(167, 161, 161);
+border-radius: 20px;
+padding: 70px;
+position: relative;
+display: inline-block;
+text-align: center;
+}
+
+.productBox:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;}
+
+.centrado{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+.textoCompra{
+display: flex;
+justify-content:space-evenly;
+}
+
+.boton{
+background-color:rgb(54, 54, 204) ;
+color: white;
+border-radius: 5px;
+border: solid white;
+margin-top: 10px;
+margin-bottom: 10px;
+padding-left: 20px ;
+padding-right: 20px;
+cursor:pointer;
+}
+.boton:hover{
+background-color: rgb(82, 82, 196);    
+}
+
+#destacado{
+display: flex;
+justify-content: space-evenly;
+position: relative;
+
+}
+.img2:hover{
+cursor: pointer;
+}
+
+
+#liebre:hover{
+background-color: #dda807;
+cursor: pointer;
+width: 300px;
+transform: rotateY(520deg);
+}
+
+hr{
+margin: 3em
+}
+
+.modal-body{
+display: flex;
+justify-content: center;    
+}
+ 
+input{
+border-radius: 4px; 
+border: solid grey 1px;
+}
+
+h3{
+color: black;
+
+}
+
+
+
+.imagen{
+width:100%;
+}
+
+.layer{
+background-color: rgba(255, 255, 255, 0.7);
+}
+
+@keyframes color {
+    from{
+        transform: ();
+
+    }
+    
+    to{
+        transform: translate(400px);
+        animation: rotateY(520deg);
+    }
+}
+
+
+/* ////REGISTRO//// */
+
+#bodyRegistro{
+background-color:  #fbbc02;
+font-family:  'Manrope', sans-serif;  
+margin: 6em;
+}
+    
+    
+.registro{
+display: flex;
+justify-content: center;  
+}
+
+.form {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+}
+
+.formInput {
+width: 90%;
+height: 30px;
+margin: 0.5rem;
+}
+
+.formButton {
+color: white;
+border: none;
+background: rgba(66,13,163,255);
+cursor: pointer;
+padding: 1em;
+border-radius: 8px;
+font-size: larger;
+}
+
+#caja{
+background-color: white;
+border-radius: 1em;
+border: none;
+}
+
+legend{
+font-weight: bold;    
+font-size: larger;
+}
+
+.imgRegistro{
+margin-bottom: 1em;
+margin-top: 3em;
+margin-left: 6em;
+margin-right: 6em ;
+}
+
+#tituloRegistro{
+text-align: center;
+}
+
+
